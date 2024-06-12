@@ -198,6 +198,7 @@ nav {
 header{
     display: grid;
     place-items: center;
+    min-height: 100vh;
 }
 /* .header_container{
     padding-top: 7rem;
