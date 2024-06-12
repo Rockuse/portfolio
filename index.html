@@ -2,18 +2,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel='stylesheet' href="./assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <title>Profile</title>
 </head>
 <body>
     <nav>
         <div class="container nav__container">
-            <i class="fi fi-rs-home nav__logo" ></i>
+            <a href="#" class="nav__logo">
+                <img src="./assets/images/logo.svg" alt="" >                                        
+            </a>
             <ul class="nav__menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -22,11 +23,36 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="nav__buttons">
-                <button class="nav__toggle-btn"><i class="fi fi-rr-moon"></i></button>
-                <button class="nav__toggle-open"><i class="fi fi-rr-menu-burger"></i></button>
-                <button class="nav__toggle-close"><i class="fi fi-rs-cross"></i></button>
+                <button class="nav__toggle-btn"><i class="uil uil-moon"></i></button>
+                <button class="nav__toggle-open"><i class="uil uil-bars"></i></button>
+                <button class="nav__toggle-close"><i class="uil uil-times"></i></button>
             </div>
         </div>
     </nav>
+
+    <header>
+        <div class="container header__container">
+            <article class="header__image">
+                <div><img src="./assets/images/logo.svg" alt="Header Image"></div>
+            </article>
+            <article class="header__content">
+                <h4>Hi, I'm <span>Fahmi Muzakki</span> and i will help your bugs problem</h4>
+                <h1>Get your business  <br>online</h1>
+                <p>My name is Fahmi Muzakki, and i will help you with your bugs problem</p>
+                <div class="header__cta">
+                    <a href="#contact" class="btn primary">Hire me</a>
+                    <a href="#contact" class="btn ">Portofolio</a>
+                    <!-- <a href="#contact" class="btn ">Hire me</a>
+                    <a href="#contact" class="btn ">Hire me</a> -->
+                </div>
+            </article>
+            <ul class="header__socials">
+                <li><a href="https://linkedin.com"><i class="uil uil-linkedin"></i></a></li>
+                <li><a href="https://github.com"><i class="uil uil-github"></i></a></li>
+                <li><a href="https://instagram.com"><i class="uil uil-instagram-alt"></i></a></li>
+                
+            </ul>
+        </div>
+    </header>
 </body>
 </html> 

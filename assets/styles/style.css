@@ -1,7 +1,7 @@
-/* --------------------GENERAL- */
+/* --------------------GENERAL------------- */
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     list-style: none;
     text-decoration: none;
     border: 0;
@@ -36,7 +36,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -58,9 +58,9 @@ figcaption {
 }
 
 img {
-    display: block;
+    display:block;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 h1,
@@ -101,9 +101,9 @@ h6 {
 .btn {
     background: var(--color-gray-200);
     color: var(--color-gray-900);
-    font-weight: 500;
+    font-weight: 300;
     display: inline-block;
-    padding: 1rem, 2.5rem;
+    padding: 1rem 2.5rem;
     border-radius: var(--radius-3);
     width: fit-content;
     cursor: pointer;
@@ -154,7 +154,7 @@ nav {
 }
 
 .nav__container {
-    border: 1px solid var(--color-primary);
+    /* border: 1px solid var(--color-primary); */
     display: flex;
     justify-content: space-between; 
 }
@@ -172,8 +172,47 @@ nav {
     gap: 3rem;
 }
 
+.nav__menu a{
+    color: var(--color-gray-900);
+}
+
+.nav__toggle-open,
+.nav__toggle-close{
+    display: none;
+}
+
 .nav__buttons{
     display: flex;
     align-items: center;
     gap: 3rem;
+}
+
+.nav__theme-btn{
+    color:var(--color-gray-900);
+    background: transparent;
+    font-size: 1.4rem;
+    cursor: pointer ;
+}
+
+/* ---------------HEADER------------------- */
+header{
+    display: grid;
+    place-items: center;
+}
+/* .header_container{
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+} */
+
+.header__image{
+width: 14rem;
+aspect-ratio: 3/4;
+overflow: hidden;
+margin-right: 272px;
+margin-inline: auto;
+border-radius: 7rem 7rem var(--radius-2) var(--radius-2);
+
 }
