@@ -242,7 +242,7 @@ header {
 }
 
 .header__socials {
-    display: flex;
+  display: flex;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -250,16 +250,33 @@ header {
   flex-direction: column;
 }
 
-.header__socials a{
-background: var(--color-gray-900);
-color: var(--color-gray-100);
-padding: 0.5rem;
-display: inline-block;
-border-radius: var(--radius-4);
-transition: var(--transition);
+.header__socials a {
+  background: var(--color-gray-900);
+  color: var(--color-gray-100);
+  padding: 0.5rem;
+  display: inline-block;
+  border-radius: var(--radius-4);
+  transition: var(--transition);
 }
 
-.header__socials a:hover{
-    background-color: var(--color-primary);
-    color:var(--color-gray-100)
+.header__socials a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-gray-100);
+  /* transform: scale(1.1); */
+}
+/* ==============================ABOUT SECTION============================== */
+
+section{
+  display: grid;
+  border: 1px;
+  place-items: center;
+  min-height: 100vh;
+}
+.about {
+  margin-top: 3rem;
+  position:relat ive;
+}
+
+.about__image{
+
 }
